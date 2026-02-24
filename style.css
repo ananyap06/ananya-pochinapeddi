@@ -229,13 +229,13 @@ nav .container {
 .about-home .section-title  { color: var(--color-white); }
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 400px 1fr;
   gap: var(--space-xl);
   align-items: start;
 }
 .about-image {
-  aspect-ratio: 3/4;
-  max-width: 320px;
+  aspect-ratio: 1;
+  max-width: 450px;
   border-radius: var(--radius-md);
   overflow: hidden;
   background: rgba(255,255,255,0.1);
